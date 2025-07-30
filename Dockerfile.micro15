@@ -4,3 +4,5 @@ LABEL maintainer="florian.stosse@gmail.com"
 LABEL lastupdate="2025-07-30"
 LABEL author="Florian Stosse"
 LABEL description="SLES 15 SP7 Micro base image used for SBOM generation"
+
+RUN pwd
