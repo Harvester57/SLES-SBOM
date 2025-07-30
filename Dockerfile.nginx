@@ -1,0 +1,6 @@
+FROM registry.suse.com/suse/nginx:latest@sha256:9f4772d68f1c011626000c0a478df5882532116570341a07bc053b00840242a4
+
+LABEL maintainer="florian.stosse@gmail.com"
+LABEL lastupdate="2025-07-30"
+LABEL author="Florian Stosse"
+LABEL description="SLES 15 SP7 Server base image with Nginx server, used for SBOM generation"

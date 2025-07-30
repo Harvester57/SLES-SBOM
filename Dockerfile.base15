@@ -1,0 +1,6 @@
+FROM registry.suse.com/suse/sle15:latest@sha256:4232c2790095361d6776af20382c431e7222f9956d773c3790d57cf7e94a7911
+
+LABEL maintainer="florian.stosse@gmail.com"
+LABEL lastupdate="2025-07-30"
+LABEL author="Florian Stosse"
+LABEL description="SLES 15 SP7 base image used for SBOM generation"

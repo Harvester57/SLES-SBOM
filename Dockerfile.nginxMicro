@@ -1,0 +1,8 @@
+FROM registry.suse.com/bci/bci-micro:15.7@sha256:83a881a41ea31cd0e8edae1e3893c1e645ad112da30e2e9489718b11f43c4c4f
+
+LABEL maintainer="florian.stosse@gmail.com"
+LABEL lastupdate="2025-07-30"
+LABEL author="Florian Stosse"
+LABEL description="SLES 15 SP7 Micro base image with Nginx server, used for SBOM generation"
+
+RUN zypper install nginx
