@@ -53,7 +53,7 @@ jobs:
         with:
           tags: localbuild/${{ matrix.context }}:latest
           sbom: true
-          context: Dockerfile.${{ matrix.context }}
+          file: Dockerfile.${{ matrix.context }}
           load: true
           push: false
           platforms: linux/amd64
