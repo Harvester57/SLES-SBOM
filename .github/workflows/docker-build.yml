@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
         matrix:
-            context: [base12, base15, micro15, minimal15, nginx, nginxmicro]
+            context: [base15, micro15, minimal15, nginx, nginxmicro]
     permissions:      
       packages: write
       # This is used to complete the identity challenge
