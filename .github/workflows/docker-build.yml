@@ -67,7 +67,7 @@ jobs:
       - name: Generate SBOM and upload dependency results
         uses: anchore/sbom-action@7b36ad622f042cab6f59a75c2ac24ccb256e9b45 # v0.20.4
         with:
-          image: localbuild/${{ matrix.context }}:latest
+          image: docker.io/localbuild/${{ matrix.context }}:latest
           artifact-name: "${{ github.event.repository.name }}-${{ matrix.context }}.cyclonedx-sbom.json"
           output-file: "/tmp/${{ github.event.repository.name }}-${{ matrix.context }}.cyclonedx-sbom.json"
           dependency-snapshot: false
